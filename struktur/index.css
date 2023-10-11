@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1535px;
+    height: 746px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 700px;
+height: 350px;
+background-color: aliceblue;
+margin-top: 20px;
+}
+.div2 input{
+    border-radius: 5px;
+   width: 400px;
+   height: 30px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+}
+.div3 input{
+    border-radius: 5px;
+   width: 400px;
+   height: 30px;
+    display: flex;
+    align-items: center;
+ justify-content: center; 
+}
+.button{
+    background-color: yellow;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.buton{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
