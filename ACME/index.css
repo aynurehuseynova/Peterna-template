@@ -1,40 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
     height: 70px;
     position: fixed;
-     background-color:#eb5757 ;
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     z-index: 9999;
-}
-nav ul{
+    background-color: #eb5757;
     display: flex;
-     gap: 30px;
-     align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9999;
 }
-nav ul li{
+
+nav ul {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+nav ul li {
     list-style-type: none;
-   
+
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 400px;
     align-items: center;
 }
-.cart{
+
+.cart {
     background-color: black;
-    color:white;
+    color: white;
     width: 60px;
     height: 40px;
     display: flex;
@@ -43,132 +49,254 @@ nav ul li a{
     font-size: 15px;
     border-radius: 5px;
 }
-#merch{
+
+#merch {
     width: 100%;
     height: 550px;
 }
 
-.firstpagebg img{
+.firstpagebg img {
     width: 100%;
     height: 550px;
     position: relative;
 }
-.writer{
- top: 228px;
-font-size: 40px;
-bottom: 100px;
-margin-left: 20px;
-position: absolute;
-color: white;
-left: 20px;
+
+.writer {
+    top: 228px;
+    font-size: 40px;
+    bottom: 100px;
+    margin-left: 20px;
+    position: absolute;
+    color: white;
+    left: 20px;
 }
-.relax p{
+
+.relax p {
     font-size: 15px;
 }
-.button{
-    color:transparent;
+
+.button {
+    color: transparent;
     padding: 10px;
     cursor: pointer;
     width: 130px;
     height: 30px;
 }
-.button button{
+
+.button button {
     width: 130px;
     height: 30px;
-    color:white;
+    color: white;
     cursor: pointer;
     background: transparent;
 }
-.kvd{
-    width: 100%;
-    height: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
+.kvd {
     font-size: 16px;
-    padding-top:20px;
-    padding-left: 20px;
-}
-.kwd{font-size: 40px;
-}
-.headerleft p{
-    padding-left: 20%;
-    padding-right: 20px;
-}
-
-.abc{
-    align-items: center;
-    justify-content: center;
+    padding-top: 4%;
     display: flex;
-    gap: 69px;
-    width: 1519px;
-    height: 500px;
-    margin-top: 20px;
+    justify-content: space-around;
 }
 
+.ad {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kwd {
+    font-size: 40px;
+
+}
+
+.headerleft p {
+    width: 500px;
+    height: 10px;
+    font-size: 17px;
+
+}
 .ask{
     display: flex;
-    gap: 10px;
-    width: 100%;
-    justify-content: center;
-
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 8%;
+    padding-top: 3%;
 }
-.qara{
-    background-color: black;
+.qara1{
     width: 350px;
-    height: 350px;
-}
-
-
-
-
-
-
-
-
-
-
- 
-.paragraf{
-background-image:url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg");
-width: 30%;
-top:100%;
-min-height: 400px;
-left: 3%;
-background-position-x: 70%;
-background-position-y: 60%;
-background-size: 270%;
-position: absolute;
-padding-top: 90px;
-}
-.box{
-    width:100% ;
-    height: 350px;
-    margin-top: 100px;
-    background-color:black ;
-    display: flex;
-    align-items: center;
-margin-left: 459px;
-}
-
-
-
-
-
-footer{
+    height: 351px;
     background-color: black;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    gap: 80%;
-    margin-top: 900px;
+    border-radius: 6px;
 }
-
-.logo{
-    padding-top: 400px;
-    padding-left: 20px;
-    display: flex;
+.qara1 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top:10% ;
+}
+.a{
+    padding-top: 20%;
+    padding-left: 10%;
+    
+}
+.a h1{
     width: 30px;
-    height: 30px
+    height: 40px;
+    color: white;
+    font-size:30px ;
+    padding-left: 20%;
+}
+.a img{
+   margin-left: 15%;
+    padding-top: 5%;
+    position: absolute;
+}
+.usb p{
+    color: black;
+    font-size: 17px;
+    position: absolute;
+    width: 451px;
+    height: auto;
+    padding-top: 14%;
+    padding-right: 10%;
+    line-height: 26px;
 
 }
+.qara2{
+    width: 350px;
+    height: 351px;
+    background-color: black;
+    border-radius: 6px;
+}
+.qara2 h2{
+color: white;
+ font-weight: 700;
+font-size: 40px;
+margin-left: 10%;
+margin-top: 10%;
+}
+.b{
+    width: auto;
+    height: 0px;
+margin-left: 20%;
+margin-top: 20%;
+}
+.b h1{
+    color: white;
+    width: 70px;
+    font-size: 33px;
+    margin-top:20%;
+    padding-left: 10%;
+}
+ .b img{
+padding-left: 10%;
+position: absolute;
+margin-top: 5%;
+
+ }
+ .b p{
+    width: 586px;
+    height: auto;
+    color: black;
+    padding-top: 14%;
+    position: absolute;
+    padding-right: 20%;
+    font-size: 17px;
+    line-height: 24px;
+
+ }
+
+.qara3{
+    width: 350px;
+    height: 351px;
+    background-color: black;
+    border-radius: 6px;
+}
+.qara3 h2{
+    color: white;
+    font-weight: 700;
+   font-size: 40px;
+   margin-left: 10%;
+   margin-top: 10%;
+}
+.c{
+    width: auto;
+    height: 0px;
+margin-left: 20%;
+margin-top: 10%;
+}
+.c h1{
+    color: white;
+    width: 50px;
+    font-size: 33px;
+    margin-top:20%;
+    padding-left: 5%;
+}
+.c img{
+    padding-left: 13%;
+    position: absolute;
+    padding-top: 1%;
+}
+.c p{
+    width: 340px;
+    height: 889px;
+    color: black;
+    padding-top: 12%;
+    position: absolute;
+    padding-right: 10%;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+.kia img{
+    width: 1519px;
+    height: 758px;
+   padding-top: 15%;
+   position: absolute;
+
+}
+.bmv{
+    top: 328px;
+    font-size: 40px;
+    bottom: 100px;
+    margin-left: 20%;
+    position: absolute;
+    color: white;
+}
+.bmw h2{
+    width: 712px;
+    height: 300px;
+padding-top: 20%;
+color: white;
+position: absolute;
+padding-left: 20%;
+font-size: 40px;
+justify-content: end;
+display: flex;
+}
+.bmw p{
+    width: 596px;
+    height: 300px;
+padding-top: 20%;
+color: white;
+position: absolute;
+
+
+
+}
+.the {
+    position: absolute;
+    display: flex;
+  padding-top: 20%;
+  
+}
+
+
+
+
+
+
+
+
